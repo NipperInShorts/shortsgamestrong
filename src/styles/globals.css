@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --white: #fff;
+    --brand-dark: #000814;
+    --brand-primary: #b8b8ff;
+    --brand-primary-alt: #fb8500;
+    --brand-secondary: #219ebc;
+    --brand-teriary: #8ecae6;
+    --brand-danger: #c1121f;
+    --brand-success: #06d6a0;
+    --brand-warning: #ffd500;
+  }
+}
