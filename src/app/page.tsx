@@ -3,5 +3,5 @@ export default function HomePage() {
     <div>
       <h1 className="text-4xl">Check Out These Shorts</h1>
     </div>
-  )
+  );
 }
