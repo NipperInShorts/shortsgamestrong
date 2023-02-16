@@ -4,14 +4,14 @@
 
 @layer base {
   :root {
-    --white: #fff;
-    --brand-dark: #000814;
-    --brand-primary: #b8b8ff;
-    --brand-primary-alt: #fb8500;
-    --brand-secondary: #219ebc;
-    --brand-teriary: #8ecae6;
-    --brand-danger: #c1121f;
-    --brand-success: #06d6a0;
-    --brand-warning: #ffd500;
+    --white: 255 255 255;
+    --brand-dark: 0 8 20;
+    --brand-primary: 184 184 255;
+    --brand-primary-alt: 251 133 0;
+    --brand-secondary: 33 158 188;
+    --brand-teriary: 142 202 230;
+    --brand-danger: 193 18 31;
+    --brand-success: 6 214 160;
+    --brand-warning: 255 213 0;
   }
 }
