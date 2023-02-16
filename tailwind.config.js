@@ -12,7 +12,7 @@ module.exports = {
       "brand-primary": "rgb(var(--brand-primary) / <alpha-value>)",
       "brand-primary-alt": "rgb(var(--brand-primary-alt) / <alpha-value>)",
       "brand-secondary": "rgb(var(--brand-secondary) / <alpha-value>)",
-      "brand-teriary": "rgb(var(--brand-teriary) / <alpha-value>)",
+      "brand-tertiary": "rgb(var(--brand-tertiary) / <alpha-value>)",
       "brand-danger": "rgb(var(--brand-danger) / <alpha-value>)",
       "brand-success": "rgb(var(--brand-success) / <alpha-value>)",
       "brand-warning": "rgb(var(--brand-warning) / <alpha-value>)",
