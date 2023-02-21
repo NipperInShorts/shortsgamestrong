@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -7,6 +8,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      ...colors,
       white: "rgb(var(--white) / <alpha-value>)",
       "brand-dark": "rgb(var(--brand-dark) / <alpha-value>)",
       "brand-primary": "rgb(var(--brand-primary) / <alpha-value>)",
@@ -19,5 +21,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [require("tailwindcss/colors")],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
