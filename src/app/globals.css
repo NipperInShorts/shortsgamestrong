@@ -35,14 +35,13 @@ body {
 
   .underline-animation::after {
     content: "";
-    @apply absolute w-full h-0.5 left-0 -bottom-0.5 bg-purple-400
-           scale-x-0 origin-bottom-right transition-transform duration-300;
+    @apply absolute -bottom-0.5 left-0 h-0.5 w-full origin-bottom-right scale-x-0 bg-purple-400 transition-transform duration-300;
     transform-origin: bottom right;
     transform: scaleX(0);
   }
 
   .underline-animation:hover::after {
-    @apply scale-x-100 origin-bottom-left;
+    @apply origin-bottom-left scale-x-100;
     transform-origin: bottom left;
     transform: scaleX(1);
   }

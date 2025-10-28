@@ -31,7 +31,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${stixTwoText.variable} ${geistSans.variable} ${geistMono.variable} antialiased flex min-h-screen flex-col max-w-[1200px] gap-6 px-4 mx-auto justify-between bg-gray-50 dark:bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]`}>
+        className={`${stixTwoText.variable} ${geistSans.variable} ${geistMono.variable} mx-auto flex min-h-screen max-w-[1200px] flex-col justify-between gap-6 bg-gray-50 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] px-4 antialiased dark:bg-gray-950 dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]`}
+      >
         {children}
       </body>
     </html>
