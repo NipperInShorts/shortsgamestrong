@@ -4,13 +4,17 @@ export const apps: AppShowCaseProps[] = [
   {
     description: "A classic Sudoku game written in SwiftUI + AppKit.",
     hoverLink:
-      "https://apps.apple.com/us/app/brain-puzzle-sudoku-classic/id6749855572?mt=12 Brain Puzzle: Sudoku Classic",
+      "https://apps.apple.com/app/apple-store/id6749855572?pt=127054267&ct=shortsgamestrong&mt=8",
     imageSrc: "/sudoku_classic.png",
     title: "Brain Puzzle: Sudoku Classic",
     optionalLinks: [
       {
-        link: "https://apps.apple.com/us/app/brain-puzzle-sudoku-classic/id6749855572?mt: 12",
+        link: "https://apps.apple.com/app/apple-store/id6749855572?pt=127054267&ct=shortsgamestrong&mt=8",
         title: "Mac App Store",
+      },
+      {
+        link: "https://apps.apple.com/app/apple-store/id6749855572?pt=127054267&ct=shortsgamestrong&mt=8",
+        title: "App Store (iPad only, iOS coming soon)",
       },
     ],
   },
@@ -33,12 +37,12 @@ export const apps: AppShowCaseProps[] = [
   {
     description: "Log your mood daily and keep tabs on your mental health.",
     hoverLink:
-      "https://apps.apple.com/us/app/mood-journal-daily-mood-log/id6683299156",
+      "https://apps.apple.com/app/apple-store/id6683299156?pt=127054267&ct=shortsgamestrong&mt=8",
     imageSrc: "/daily_mood.png",
     title: "Mood Journal: Daily Mood Log",
     optionalLinks: [
       {
-        link: "https://apps.apple.com/us/app/mood-journal-daily-mood-log/id6683299156",
+        link: "https://apps.apple.com/app/apple-store/id6683299156?pt=127054267&ct=shortsgamestrong&mt=8",
         title: "App Store",
       },
     ],
@@ -46,12 +50,12 @@ export const apps: AppShowCaseProps[] = [
   {
     description: "Log your workouts",
     hoverLink:
-      "https://apps.apple.com/us/app/record-recall-log-your-bests/id1629719336",
+      "https://apps.apple.com/app/apple-store/id1629719336?pt=127054267&ct=shortsgamestrong&mt=8",
     imageSrc: "/record_recall.png",
     title: "Record Recall",
     optionalLinks: [
       {
-        link: "https://apps.apple.com/us/app/record-recall-log-your-bests/id1629719336",
+        link: "https://apps.apple.com/app/apple-store/id1629719336?pt=127054267&ct=shortsgamestrong&mt=8",
         title: "App Store",
       },
       {
@@ -65,15 +69,15 @@ export const apps: AppShowCaseProps[] = [
     description:
       "Simple percent calculator for logging percent off and of amounts for iOS + Apple Watch + macOS",
     hoverLink:
-      "https://apps.apple.com/us/app/percent-calculator-off-of/id1577127191",
+      "https://apps.apple.com/app/apple-store/id1577127191?pt=127054267&ct=shortsgamestrong&mt=8",
     imageSrc: "/solidus.png",
     optionalLinks: [
       {
-        link: "https://apps.apple.com/us/app/percent-calculator-off-of/id1577127191 Percent Calculator: Off Of",
+        link: "https://apps.apple.com/app/apple-store/id1577127191?pt=127054267&ct=shortsgamestrong&mt=8",
         title: "App Store",
       },
       {
-        link: "https://apps.apple.com/us/app/percent-calculator-off-and-of/id1634868567?mt=12 Percent Calculator: Off and Of",
+        link: "https://apps.apple.com/app/apple-store/id1634868567?pt=127054267&ct=shortsgamestrong&mt=8",
         title: "Mac App Store",
       },
       {

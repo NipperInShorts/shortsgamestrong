@@ -43,7 +43,7 @@ export function AppShowcase({
                   <a
                     key={link.link}
                     href={link.link}
-                    className="p-2 transition-transform duration-300 hover:scale-115"
+                    className="p-2 transition-transform duration-300 hover:scale-110"
                   >
                     <span className="underline-animation">{link.title}</span>
                   </a>
@@ -54,7 +54,7 @@ export function AppShowcase({
                 <a
                   key={link.link}
                   href={link.link}
-                  className="p-2 transition-transform duration-300 hover:scale-115"
+                  className="p-2 transition-transform duration-300 hover:scale-110"
                 >
                   <span className="underline-animation">{link.title}</span>
                 </a>
